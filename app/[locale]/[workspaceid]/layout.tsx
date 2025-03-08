@@ -324,7 +324,20 @@ export default function WorkspaceLayout({ children }: WorkspaceLayoutProps) {
     setNewMessageFiles([]);
     setNewMessageImages([]);
     setShowFilesDisplay(false);
-  }, [workspaceId]);
+  }, [
+    workspaceId,
+    setUserInput,
+    setChatMessages,
+    setSelectedChat,
+    setIsGenerating,
+    setFirstTokenReceived,
+    setChatFiles,
+    setChatImages,
+    setNewMessageFiles,
+    setNewMessageImages,
+    setShowFilesDisplay
+  ]
+);
 
   if (loading) {
     return <Loading />;
