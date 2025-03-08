@@ -1,5 +1,5 @@
 {
-  "name": "chatbot-ui",
+  "name": "lawgicai",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -133,5 +133,9 @@
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
-  }
+  },
+  "engines": {
+  "node": ">=20"
+}
+
 }
